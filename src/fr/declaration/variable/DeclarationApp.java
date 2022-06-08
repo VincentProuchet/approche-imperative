@@ -1,7 +1,10 @@
 package fr.declaration.variable;
 
 public class DeclarationApp {
-
+	
+	
+	
+	
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		byte octal = 127;
@@ -13,7 +16,7 @@ public class DeclarationApp {
 		char lettre = 'C';
 		boolean binaire = true;
 		String phrase = "Une phrase d'introduction";
-		String randomString = "Voici le résultat d'un calcul :\n 1+5 =6";
+		String randomString = "Voici le rï¿½sultat d'un calcul :\n 1+5 =6";
 		
 
 	
