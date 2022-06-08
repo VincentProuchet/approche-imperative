@@ -1,7 +1,12 @@
 package fr.tableaux;
 
 public class ExerciceTableauChaines {
-
+	
+	/* TP 05
+	 * 
+	 * Tableau de chaines 
+	 * 
+	 */
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		String [] villes = new String[] {"Béziers",

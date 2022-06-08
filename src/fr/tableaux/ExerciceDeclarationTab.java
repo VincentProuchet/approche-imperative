@@ -2,7 +2,7 @@ package fr.tableaux;
 
 public class ExerciceDeclarationTab {
 
-	/* TP 5
+	/* TP 05
 	 * les tableaux
 	 */
 	public static void main(String[] args) {
