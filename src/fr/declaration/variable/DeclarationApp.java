@@ -4,7 +4,13 @@ public class DeclarationApp {
 	
 	
 	
-	
+	/** TP 3
+	 * les variables 
+	 * leurs types
+	 * et la hiérarchie
+	 * 
+	 * @param args
+	 */
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		byte octal = 127;

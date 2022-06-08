@@ -2,6 +2,10 @@ package fr.operateurs;
 
 public class DeclarationOperateurs {
 
+	/*	TP 4
+	 * les opérateur
+	 * les équations booléenes 
+	 */
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		int a  = 10;
