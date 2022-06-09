@@ -54,6 +54,10 @@ public class ExerciceBouclesEtTest {
 		}
 		System.out.println(" ");
 	}
+	/* n'affiche que les donnée dont la valeur est supérieure à 
+	 * valeurMini
+	 * 
+	 */
 	public static void afficherLesSuperieurs(int valeurMini, int[] data) {
 		System.out.println(" Seulement les plus grand que " + valeurMini );
 		
@@ -64,6 +68,9 @@ public class ExerciceBouclesEtTest {
 		}
 		System.out.println("");
 	}
+	/*n'affiche que les donnée dont la valeur est un entier pair
+	 *  
+	 */
 	public static void afficherLesEntiersPairs(int[] data) {
 		System.out.println(" Seulement les pairs " );
 		
@@ -74,6 +81,9 @@ public class ExerciceBouclesEtTest {
 		}
 		System.out.println("");
 	}
+	/*
+	 * n'affiche que les données dont la valeur et un entier impair
+	 */
 	public static void afficherLesEntiersImpairs(int[] data) {
 		System.out.println(" Seulement les impairs " );
 		for(int i=0;i<data.length;i++) {
@@ -83,6 +93,9 @@ public class ExerciceBouclesEtTest {
 		}
 		System.out.println("");
 	}
+	/*
+	 * n'affiche que les données présent dans un index pair
+	 */
 	public static void afficherLesIndexPairs(int[] data) {
 		System.out.println(" Seulement les index pairs " );
 		for(int i=0;i<data.length;i++) {

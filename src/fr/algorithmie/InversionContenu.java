@@ -50,6 +50,7 @@ public class InversionContenu {
 			String array1Space = " ";
 			String array2Space = " ";
 			for(int i=0;i<array.length;i++) {
+				// mise en forme
 				if(i<10 ) {
 					indexSpace = "  ";
 				}
@@ -68,15 +69,11 @@ public class InversionContenu {
 				else {
 					array2Space = " ";
 				}
-				
-			
-				
-				
+				// mise en forme
 				System.out.println("index"+ indexSpace + i  + " :"+array1Space + array[i] + " -->"+array2Space + array2[i] );
-				
 			}
-			System.out.println("\n fin du tableau \n");
-					
+			System.out.println("\n fin du tableau \n");			
 		}
 	}
+	
 }
