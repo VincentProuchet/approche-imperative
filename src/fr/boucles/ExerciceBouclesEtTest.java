@@ -1,8 +1,13 @@
 package fr.boucles;
 
+
+/* TP 6
+ * 
+ */
+
 public class ExerciceBouclesEtTest {
 
-	// 
+	
 	public static void main(String[] args) {
 		
 		
