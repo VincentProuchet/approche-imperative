@@ -11,19 +11,25 @@ public class Rotation {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		int[] array1 = {1, 15, -3, 8, 7, 4, -2, 28, -1, 17, 2, 3, 0, 14, -4} ;
+		int[] array1 = { 1, 15, -3, 8, 7, 4, -2, 28, -1, 17, 2, 3, 0, 14, -4 };
 		// on crée un tableau de la même longueur
-		int[] rotated = new int[array1.length];
+		if (array1.length > 1) {
+			int[] rotated = new int[array1.length];
 
-		// on place le dernier au debut du tableau
-		rotated[0] = array1[array1.length-1];
-		// puis on déplace chaque valeur dans la case adjacente
-		for(int i=1;i<array1.length;i++) {
-			rotated[i] = array1[i-1];
+			// on place le dernier au debut du tableau
+			rotated[0] = array1[array1.length - 1];
+			// puis on déplace chaque valeur dans la case adjacente
+			for (int i = 1; i < array1.length; i++) {
+				rotated[i] = array1[i - 1];
+			}
+
+			display2Array(array1, rotated);
 		}
-		
-		display2Array(array1, rotated);
+		else {
+			System.out.println("le tableau est trop petit");
+		}
 	}
+
 	public static void display2Array(int[] array, int[] array2) {
 
 		if (array.length == array2.length) {
@@ -42,6 +48,7 @@ public class Rotation {
 			System.out.println("\n fin des tableau \n");
 		}
 	}
+
 	/*
 	 * Ne sert qu'à la mise en forme des présentation de tableau lorsqu'ils sont
 	 * présenté cote à cote
@@ -59,6 +66,5 @@ public class Rotation {
 		return space;
 
 	}
-	
 
 }
